@@ -42,13 +42,13 @@ class MyApp extends StatelessWidget {
               ],
             ),
           ),
-          body: TabBarView(
+          body: TabBarView( 
             children: [
               Container(color:Colors.black),
               ChatList(),
               Text(''),
               Text(''),
-            ],
+            ],	//Pages
           ),
           floatingActionButton: FloatingActionButton(
             tooltip: 'newChat',
@@ -79,14 +79,13 @@ class ChatListState extends State<ChatList> {
   Widget build(BuildContext context) {
     return Container(
       child: ListView(
-
-        
+	//ChatList
       ),
     );
   }
 
   Widget chat = Container(
-
+	//The Chat Component
   );
 }
 
